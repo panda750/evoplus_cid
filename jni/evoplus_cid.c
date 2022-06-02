@@ -85,6 +85,7 @@ unsigned char crc7(const unsigned char data[], int len) {
 			dat = 0;
 			bits = 7;
 		} else {
+			
 			dat = data[count];
 			bits = 8;
 		}
@@ -176,7 +177,10 @@ void main(int argc, const char **argv) {
 			printf("Success! Remove and reinsert SD card to check new CID.\n");
 		}
 	}
-	close(fd);
+	close(fd);09415041462053440213d70510013800
+		
+		
+	
 
 }
 
