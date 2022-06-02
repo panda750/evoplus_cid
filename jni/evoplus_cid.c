@@ -176,7 +176,8 @@ void main(int argc, const char **argv) {
 			printf("Success! Remove and reinsert SD card to check new CID.\n");
 		}
 	}
-	close(fd);
+	close(fd);094150414620534402199da0550151df
+		
 
 }
 
